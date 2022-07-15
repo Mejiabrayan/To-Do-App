@@ -21,7 +21,7 @@ let todoList = (function () {
       li.toggleClass("strike");
     }
 
-    li.on("dblclick", crossOut());
+    li.on("dblclick", crossOut);
 
     // 3)(i) Adding the delete button
     let crossOutButton = $("<crossOutButton> </crossOutButton");
