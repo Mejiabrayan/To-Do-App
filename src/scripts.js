@@ -39,9 +39,8 @@ let todoList = (function () {
     $("#list").sortable();
   }
 
-  // fires and indicates which keys are pressed
+  // the keys
   textInput.on("keydown", (e) => {
-    // if there is keys in map then return true
     if (e.key in map) {
       map[e.key] = true;
     }
