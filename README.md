@@ -8,4 +8,3 @@ This app is simply to showcase my skills using Jquery and building a simple To-D
 ## Technologies
 - Javascript
 - Jquery
-# To-Do-App
