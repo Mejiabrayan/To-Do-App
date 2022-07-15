@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap");
+
+html,
+body {
+  font-family: "Poppin", sans-serif;
+  background: rgb(38, 37, 37);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+}
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #0050fa;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+li > crossOutButton {
+  background: none;
+  border: none;
+  float: right;
+  color: red;
+  font-weight: 700;
+}
+
+li > crossOutButton:hover {
+  background-color: #ffffff;
+}
+
+@media all and (max-width: 350px) {
+  .container {
+    width: 100px;
+  }
+
+  #input {
+    width: 8em;
+    height: 12em;
+  }
+
+  #button {
+    margin-left: 1em;
+  }
+}
